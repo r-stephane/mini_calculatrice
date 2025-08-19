@@ -1,7 +1,7 @@
 # Mini Calculateur de Marge Bénéficiaire
 
 ## Description
-Ce projet est une mini-calculatrice web permettant à un agriculteur de calculer facilement la marge bénéficiaire de ses produits agricoles. L'utilisateur saisit ses différents coûts de production (semences, engrais, etc.) ainsi que le prix de vente total, puis obtient instantanément le résultat de sa marge, sans rechargement de page.
+Cet application est une mini-calculatrice web permettant à un agriculteur de calculer facilement la marge bénéficiaire de ses produits agricoles. L'utilisateur saisit ses différents coûts de production (semences, engrais, etc.) ainsi que le prix de vente total, puis obtient instantanément le résultat de sa marge, sans rechargement de page.
 
 ## TECNOLOGIE UTILISÉÉS
 - HTML

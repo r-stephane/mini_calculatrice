@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Mini Calculatrice de Marge Bénéficiaire</title>
+
+<body>
+    <div class="container">
+        <h1>Calculateur de Marge Agricole</h1>
+
+        <div class="form-group">
+            <label for="product-name">Nom du produit</label>
+            <input type="text" id="product-name" placeholder="Ex: Blé, Maïs, Tomates...">
+        </div>
+
+        <div class="form-group">
+            <label>Coûts de production</label>
+            <div id="costs-container">
+                <div class="cost-item">
+                    <input type="number" class="cost-input" placeholder="Montant (FCFA)" min="0" step="0.01">
+                    <input type="text" class="cost-label" placeholder="Description (semences, engrais...)">
+                </div>
+            </div>
+            <button type="button" id="add-cost">Ajouter un coût</button>
+        </div>
+
+        <div class="form-group">
+            <label for="selling-price">Prix de vente (FCFA)</label>
+            <input type="number" id="selling-price" placeholder="Prix de vente total" min="0" step="0.01">
+        </div>
+
+        <button type="button" id="calculate-btn">Calculer la marge</button>
+
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

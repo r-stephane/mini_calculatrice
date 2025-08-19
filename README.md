@@ -19,3 +19,5 @@ Le code teste la valeur de la marge :
 - Positive : Affiche un message de félicitations.
 - Nulle: Indique que l’activité est à l’équilibre.
 - Négative : Affiche un message d’alerte pour signaler une perte.
+
+<img width="737" height="610" alt="Capture d’écran du 2025-08-19 11-10-51" src="https://github.com/user-attachments/assets/05115de7-e14f-4a13-a19a-b45d0812cb81" />
